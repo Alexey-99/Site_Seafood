@@ -77,3 +77,10 @@ body {
     padding-left: 112px;
     margin-bottom: 130px;
 }
+
+.header_slider{
+    max-width: 410px;
+    padding-left: 112px;
+    padding-top: 57px;
+    padding-bottom: 135px;
+}
