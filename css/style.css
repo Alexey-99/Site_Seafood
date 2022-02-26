@@ -84,3 +84,10 @@ body {
     padding-top: 57px;
     padding-bottom: 135px;
 }
+
+.header_slider_text{
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
