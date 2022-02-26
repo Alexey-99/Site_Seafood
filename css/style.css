@@ -13,7 +13,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* font-family: 'Roboto Slab', serif; */
 }
 
 .contener {
@@ -59,4 +58,22 @@ body {
 
 .menu_link:hover {
   border-bottom: 1px solid #001e64;
+}
+
+.header_content{
+    background-image: url(../images/header.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    color: #001e64;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 95px;
+    max-width: 589px;
+    padding-top: 200px;
+    padding-left: 112px;
+    margin-bottom: 130px;
 }
