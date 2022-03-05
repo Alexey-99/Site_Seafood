@@ -24,7 +24,7 @@ body {
 .header_top {
   display: flex;
   justify-content: space-between;
-  padding-top: 27px;
+  padding-top: 20px;
 }
 
 .logo {
@@ -64,6 +64,8 @@ body {
   background-image: url(../images/header.png);
   background-size: cover;
   background-position: center;
+  padding-bottom: 50px;
+  margin-top: -64px;
 }
 
 .title {
@@ -73,9 +75,9 @@ body {
   font-size: 72px;
   line-height: 95px;
   max-width: 589px;
-  padding-top: 200px;
+  padding-top: 140px;
   padding-left: 112px;
-  margin-bottom: 130px;
+  margin-bottom: 60px;
 }
 
 .header_slider {
@@ -154,5 +156,21 @@ body {
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.5);
   margin-left: 112px;
-  
+  display: inline-block;
+  transform: translateY(-100px);
+  position: absolute;
 }
+
+.header_content_box {
+  display: flex;
+  margin-left: 100%;
+  margin-right: 30px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+}
+
+.header_content_link--active{
+  font-weight: 700;
+}
+
