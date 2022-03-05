@@ -127,3 +127,7 @@ body {
 .slick-active button{
   opacity: 1;
 }
+
+.slick-dots button::before{
+  content: '0';   
+}
