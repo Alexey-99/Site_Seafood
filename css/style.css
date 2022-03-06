@@ -175,3 +175,20 @@ body {
 .header_content_link--active {
   font-weight: 700;
 }
+
+.product{
+  padding-top: 100px;
+}
+
+.producy_inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_name{
+
+}
+
+.product_content{
+  width: 600px;
+}
