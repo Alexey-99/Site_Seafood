@@ -186,9 +186,13 @@ body {
 }
 
 .product_name{
-
+width: 530px;
 }
 
 .product_content{
   width: 600px;
+}
+
+.product_name_item + .product_name_item{
+margin-top: 30px;
 }
