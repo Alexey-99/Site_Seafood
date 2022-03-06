@@ -15,9 +15,9 @@ $(function () {
     asNavFor: '.product_content',
     vertical: true,
     prevArrow:
-      '<button type="button" class="product-prev"><img src="images/product_prev.svg" alt="prev.svg"></button>',
+      '<button type="button" class="product_prev"><img src="images/product_prev.svg" alt="prev.svg"></button>',
     nextArrow:
-      '<button type="button" class="product-next"><img src="images/product_next.svg" alt="next.svg"></button>',
+      '<button type="button" class="product_next"><img src="images/product_next.svg" alt="next.svg"></button>',
   });
   $('.product_content').slick({
     slidesToShow: 1,
