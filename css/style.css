@@ -281,5 +281,5 @@ body {
 }
 
 .seafood{
-  background-image: image();
+  background-image: url(../images/seafood-bg.jpg);
 }
