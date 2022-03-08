@@ -326,10 +326,19 @@ body {
 
 }
 .seafood_item_content {
+  
 }
 .seafood_item_title {
+  max-width: 490px;
+  margin-bottom: 30px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #001e64;
 }
 .seafood_item_text {
+  max-width: 420px;
 }
 .seafood_item_img {
 }
