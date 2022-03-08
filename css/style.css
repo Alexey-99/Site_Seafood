@@ -310,3 +310,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.seafood{
+  margin: 100px 0;
+}
+
+.seafood_item{
+  display: flex;
+}
