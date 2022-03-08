@@ -312,14 +312,18 @@ body {
 }
 
 .seafood {
-  margin: 100px 0;
+  padding: 100px 0;
 }
 .contener {
+  
 }
 .seafood_items {
-  display: flex;
+  margin-bottom: 100px;
 }
 .seafood_item {
+  display: flex;
+  justify-content: space-between;
+
 }
 .seafood_item_content {
 }
@@ -328,4 +332,11 @@ body {
 .seafood_item_text {
 }
 .seafood_item_img {
+}
+
+.seafood_blockquote {
+}
+.seafood_blockquote_img {
+}
+.seafood_blockquote_text {
 }
