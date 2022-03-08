@@ -218,11 +218,38 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: 24px;
   line-height: 32px;
+  cursor: pointer;
 }
 
 .product_name_item.slick-current {
   font-weight: 700;
   color: #001e64;
   font-size: 36px;
-  line-height: 38px;
+}
+
+.product_content_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_content_img {
+  object-fit: cover;
+}
+
+.product_content_list {
+  width: 291px;
+  list-style: none;
+}
+
+.product_content_item{
+
+}
+
+.product_content_item span {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #001E64;
 }
