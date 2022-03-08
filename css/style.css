@@ -249,10 +249,9 @@ body {
   display: block;
   margin-bottom: 10px;
   color: #001e64;
-
 }
 
-.product_content_title{
+.product_content_title {
   font-family: 'Roboto Slab', serif;
   padding-top: 20px;
   font-weight: 400;
@@ -262,11 +261,11 @@ body {
   margin-bottom: 20px;
 }
 
-.product_content_text{
+.product_content_text {
   margin-bottom: 25px;
 }
 
-.product_content_btn{
+.product_content_btn {
   display: inline-block;
   color: #001e64;
   font-family: 'Roboto Slab', serif;
@@ -274,5 +273,9 @@ body {
   font-size: 24px;
   font-weight: 700;
   padding: 12px 85px;
-  
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid #001e64;
+  border-radius: 20px;
+  cursor: pointer;
 }
