@@ -9,7 +9,7 @@ $(function () {
   });
 
   $('.product_name').slick({
-    slidesToShow: 6,
+    slidesToShow: 4,
     slidesToScroll: 1,
     focusOnSelect: true,
     asNavFor: '.product_content',
@@ -18,14 +18,13 @@ $(function () {
       '<button type="button" class="product_prev"><img src="images/product_prev.svg" alt="prev.svg"></button>',
     nextArrow:
       '<button type="button" class="product_next"><img src="images/product_next.svg" alt="next.svg"></button>',
+    centerMode: true,
   });
   $('.product_content').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     asNavFor: '.product_name',
     fade: true,
-    arrows: false
+    arrows: false,
   });
-    
-
 });
