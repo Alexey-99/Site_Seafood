@@ -241,15 +241,21 @@ body {
   list-style: none;
 }
 
-.product_content_item{
-
+.product_content_item {
+  margin-bottom: 30px;
 }
 
 .product_content_item span {
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
-  color: #001E64;
+  display: block;
+  margin-bottom: 10px;
+  color: #001e64;
+}
+
+.product_content_title{
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #001e64;
+  margin-bottom: 20px;
 }
