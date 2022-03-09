@@ -360,3 +360,39 @@ body {
   font-size: 18px;
 }
 
+.contacts {
+  background-image: url(../images/contacts.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  margin-bottom: 29px;
+}
+
+.contact_box {
+  margin-left: auto;
+  width: 390px;
+  background-color: #fff;
+  padding: 33px 0 33px 20px;
+}
+
+.contacts_box_text {
+  width: 195px;
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 24px;
+  color: #001e64;
+  margin-bottom: 30px;
+}
+
+.contacts_box_list {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.contacts_box_item + .contacts_box_item {
+  margin-top: 30px;
+}
+
+.contacts_box_item {
+  display: block;
+}
