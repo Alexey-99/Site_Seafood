@@ -487,8 +487,8 @@ body {
     display: block;
     top: -700px;
   }
-  .menu_list--active {
-    top: 700px;
+  .menu_list.menu_list--active {
+    top: 75px;
   }
   .phone {
     margin-top: 13px;
