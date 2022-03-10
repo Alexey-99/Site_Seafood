@@ -480,7 +480,12 @@ body {
 
 @media (max-width: 1000px) {
   .menu_list {
-    display: none;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    background-color: #fff;
+    display: block;
+    top: -700px;
   }
   .phone {
     margin-top: 13px;
@@ -492,5 +497,13 @@ body {
   }
   .menu_btn {
     display: block;
+  }
+  .menu_item + .menu_item {
+    margin-left: 0;
+  }
+  .menu_link{
+    display: block;
+    padding: 20px 0;
+    text-align: center;
   }
 }
