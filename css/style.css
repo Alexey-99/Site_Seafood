@@ -487,13 +487,14 @@ body {
     display: block;
     top: -700px;
   }
+  .menu_list--active {
+    top: 700px;
+  }
   .phone {
     margin-top: 13px;
   }
   .menu {
-    margin-left: auto;
-    margin-top: 13px;
-    margin-right: 20px;
+    margin: 13px 20px 0 auto;
   }
   .menu_btn {
     display: block;
@@ -501,7 +502,7 @@ body {
   .menu_item + .menu_item {
     margin-left: 0;
   }
-  .menu_link{
+  .menu_link {
     display: block;
     padding: 20px 0;
     text-align: center;
