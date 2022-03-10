@@ -452,6 +452,7 @@ body {
   cursor: pointer;
   position: relative;
   display: none;
+  z-index: 10;
 }
 
 .menu_btn::after,
@@ -485,10 +486,12 @@ body {
     right: 20%;
     background-color: #fff;
     display: block;
-    top: -700px;
+    top: -200%;
+    transition: all 0.5s;
+    z-index: 5;
   }
   .menu_list.menu_list--active {
-    top: 75px;
+    top: 20px;
   }
   .phone {
     margin-top: 13px;
@@ -506,5 +509,54 @@ body {
     display: block;
     padding: 20px 0;
     text-align: center;
+  }
+  .menu_link:hover {
+    border: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .title {
+    font-size: 50px;
+    line-height: 66px;
+    max-width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 470px) {
+  .header_slider {
+    padding-left: 50px;
+  }
+  .slick-dots {
+    left: 5px;
+  }
+  .slick-prev,
+  .slick-next {
+    left: 9px;
+  }
+  .header_content_btn {
+    margin-left: 50px;
+  }
+  .title {
+    font-size: 34px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 360px) {
+  .title {
+    padding-top: 125px;
+  }
+  .phone {
+    margin-right: 0;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  .menu_list {
+    left: 10%;
+    right: 10%;
   }
 }

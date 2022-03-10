@@ -6,6 +6,17 @@ $(function () {
     nextArrow:
       '<button type="button" class="slick-next"><img src="images/next.svg" alt="next.svg"></button>',
     fade: true,
+    responsive: [
+      {
+        breakpoint: 361,
+        settings: {
+          dots: false,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        },
+      },
+    ],
   });
 
   $('.product_name').slick({
