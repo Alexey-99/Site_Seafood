@@ -522,10 +522,10 @@ body {
 }
 
 @media (max-width: 890px) {
-  .product_inner{
+  .product_inner {
     display: block;
   }
-  .product_content{
+  .product_content {
     margin: 0 auto;
   }
   .product_name {
@@ -533,22 +533,21 @@ body {
     padding-top: 0;
     margin-bottom: 80px;
   }
-  .product_name_item + .product_name_item{
+  .product_name_item + .product_name_item {
     margin-top: 0;
   }
-  .product_name_item.slick-current{
+  .product_name_item.slick-current {
     line-height: 44px;
   }
-  .product_name.slick-dots{
+  .product_name.slick-dots {
     left: 0;
     right: 0;
   }
-  .product_name.slick-dots button{
+  .product_name.slick-dots button {
     width: 16px;
     height: 18px;
   }
 }
-
 
 @media (max-width: 750px) {
   .title {
