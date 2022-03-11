@@ -30,6 +30,18 @@ $(function () {
     nextArrow:
       '<button type="button" class="product_next"><img src="images/product_next.svg" alt="next.svg"></button>',
     centerMode: true,
+    responsive: [
+      {
+        breakpoint: 891,
+        settings: {
+          vertical: false,
+          slidesToShow: 3,
+          arrows: false,
+          centerMode: true,
+          dots: true,
+        },
+      },
+    ],
   });
   $('.product_content').slick({
     slidesToShow: 1,
