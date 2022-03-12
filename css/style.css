@@ -580,6 +580,9 @@ body {
   .product_content_list {
     width: 100%;
   }
+  .seafood_box {
+    display: none;
+  }
 }
 
 @media (max-width: 470px) {
