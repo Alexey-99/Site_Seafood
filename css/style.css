@@ -479,6 +479,9 @@ body {
   .product_name {
     width: 250px;
   }
+  .footer .logo{
+    display: none;
+  }
 }
 
 @media (max-width: 1100px) {
