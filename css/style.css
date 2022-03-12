@@ -292,6 +292,10 @@ body {
   color: #fff;
 }
 
+.seafood {
+  margin-top: 50px;
+}
+
 .seafood_box {
   background-image: url(../images/seafood-bg.jpg);
   background-repeat: no-repeat;
@@ -324,7 +328,7 @@ body {
 }
 
 .seafood {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .seafood_item {
@@ -372,7 +376,6 @@ body {
   background-image: url(../images/contacts.jpg);
   background-repeat: no-repeat;
   background-position: bottom left;
-  margin-bottom: 29px;
 }
 
 .contact_box {
@@ -479,8 +482,18 @@ body {
   .product_name {
     width: 250px;
   }
-  .footer .logo{
+  .footer .logo,
+  .footer .menu {
     display: none;
+  }
+  .footer {
+    padding: 40px 0 40px;
+  }
+  .footer_inner {
+    justify-content: center;
+  }
+  .footer_social_list {
+    padding-bottom: 0;
   }
 }
 
@@ -615,9 +628,6 @@ body {
   .seafood_box {
     display: none;
   }
-  .seafood {
-    padding: 50px 0;
-  }
   .contacts {
     background-image: none;
   }
@@ -673,5 +683,11 @@ body {
   }
   .header_content_btn {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 330px) {
+  .header_content_btn {
+    padding: 14px 44px;
   }
 }
